@@ -8,14 +8,14 @@ import (
 	"net/url"
 )
 
-type Person struct {
+type person struct {
 	Name string
 	Age  int
 	Tags []string
 }
 
 func Data() {
-	data := []Person{
+	data := []person{
 		{"Ansh", 12, []string{"A", "B"}},
 		{"Dev", 14, []string{"c", "d"}},
 	}
